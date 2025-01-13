@@ -144,7 +144,7 @@ button:hover {
 
     }
 
-    .button_ranking{
+    .button_ranking_wrapper{
 
          
         border-radius: 2rem;
@@ -153,8 +153,27 @@ button:hover {
         background-color: var(--clr-dark-blue);
         text-align: center;
 
+    }
+
+    .text_wrapper{
+
+        text-align: center;
+
+        h2{
+            padding-bottom: .5rem;
+            font-size: 2rem;
+        }
+        p{
+            padding-bottom: .5rem;
+        }
+
 
     }
+
+
+
+
+
 
 
 
