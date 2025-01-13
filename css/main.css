@@ -19,7 +19,8 @@
 body {
 
     font-family: var(--font);
-    color: var(--clr-White)
+    color: var(--clr-White);
+    background-color: black;
 }
 
 main {
@@ -33,6 +34,12 @@ main {
     
 }
 
+.section-wrapper{
+
+    display: none;
+
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -42,7 +49,8 @@ section{
     width: 340px;
     padding-inline: 1.5rem;
     padding-block: 1rem;
-    background-color: var();
+    
+    
 }
 
 .icon_circle{
@@ -103,6 +111,7 @@ article{
 
 button{
 
+    width: 100%;
     border: none;
     border-radius: 1.4rem;
     padding: 1rem;
@@ -110,5 +119,45 @@ button{
     background-color: var(--clr-primary);
     color: var(--clr-dark-blue);
     font-size: 1.2rem;
+
+
+}
+
+button:hover {
+
+    background-color: var(--clr-light-grey);
+
+}
+
+
+.section_two_wrapper{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 2rem;
+
+    .illustration_mobile{
+
+        display: grid;
+        place-items: center;
+
+    }
+
+    .button_ranking{
+
+         
+        border-radius: 2rem;
+        margin-inline: 2.5rem;
+        padding-block: 1rem;
+        background-color: var(--clr-dark-blue);
+        text-align: center;
+
+
+    }
+
+
+
+
 
 }
