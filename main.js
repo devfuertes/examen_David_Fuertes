@@ -4,7 +4,8 @@ const containerOne = document.querySelector(".section_wrapper");
 const containerTwo = document.querySelector(".section_two_wrapper");
 const changeRantingText = document.querySelector(".changeRanting");
 
-let changeRanting = null;
+let changeRanting = 0;
+
 
 buttonsRanting.forEach((button) => {
     button.addEventListener("click", () => {

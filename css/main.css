@@ -76,6 +76,12 @@ article {
     display: flex;
     justify-content: space-between;
 
+
+
+}
+
+.changeRanting{
+    color: var(--clr-primary)
 }
 
 button {
